@@ -20,6 +20,7 @@ $CFG->dboptions = array (
 
 $CFG->wwwroot   = 'http://localhost/churchlms';
 $CFG->dataroot  = 'C:\\xampp\\htdocs\\churchlms';
+// $CFG->dataroot  = 'C:\\wamp\\www\\churchlms';
 $CFG->admin     = 'admin';
 
 $CFG->directorypermissions = 0777;
