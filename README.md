@@ -3,7 +3,7 @@ Church-LMS is a web application that helps churches give access to Programs and 
 
 
 ## Installation
-### Prerequisite
+### Prerequisites
 
 - Docker
 - docker-compose
@@ -12,8 +12,8 @@ Church-LMS is a web application that helps churches give access to Programs and 
 - PHP
 - git
 
+### Installation Steps
 
-## How to run on Linux environment
 - clone the repo
 
 ```
