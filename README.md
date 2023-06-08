@@ -16,7 +16,7 @@ Church-LMS is a web application that helps churches give access to Programs and 
 - clone the repo
 
 ```
-$ git clone https://github.com/Michaelndula/kcc-moodle.git
+$ git clone https://github.com/IntelliSOFT-Consulting/ChurchLMS.git
 ```
 
 - Navigate to the directory
