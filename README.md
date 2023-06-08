@@ -22,7 +22,7 @@ $ git clone https://github.com/Michaelndula/kcc-moodle.git
 - Navigate to the directory
 
 ```
-$ cd kcc-moodle
+$ cd ChurchLMS
 ```
 
 - Inside the docker-compose.yml set you configurations
