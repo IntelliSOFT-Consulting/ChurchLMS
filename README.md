@@ -39,7 +39,7 @@ $ docker-compose build
 $ docker-compose up
 ```
 
-- You're up and running, on you browser open the project
+- You're up and running, on your browser open
 
 ```
 https://localhost:your-port/
