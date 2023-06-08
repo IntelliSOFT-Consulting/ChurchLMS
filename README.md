@@ -1,2 +1,46 @@
-# ChurchLMS
-Church Learning Management System
+## CHURCH-LMS - (Church learning management system)
+Church-LMS is a web application that helps churches give access to Programs and lessons they offer to their Church members and Congregants.
+
+
+## Installation
+### Requirements
+-- Docker
+-- docker-compose
+-- Mysql
+-- Apache
+-- PHP
+-- git
+
+
+## How to Run
+- clone the repo
+
+```
+$ git clone https://github.com/Michaelndula/kcc-moodle.git
+```
+
+- Navigate to the directory
+
+```
+$ cd kcc-moodle
+```
+
+- Inside the docker-compose.yml set you configurations
+
+- Build the project using docker-compose
+
+```
+$ docker-compose build
+```
+
+- Run
+
+```
+$ docker-compose up
+```
+
+- You're up and running, on you browser open the project
+
+```
+https://localhost:your-port/
+```
