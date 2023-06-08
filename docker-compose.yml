@@ -5,9 +5,9 @@ services:
     volumes:
       - /srv/Configs/Databases/Moodle:/var/lib/mysql
     environment:
-      - MYSQL_ROOT_PASSWORD=moodle
+      - MYSQL_ROOT_PASSWORD=churchlms
       - MYSQL_ROOT_USER=root
-      - MYSQL_DATABASE=moodle
+      - MYSQL_DATABASE=churchlms
       
   moodle:
     image: bitnami/moodle:latest
@@ -17,8 +17,8 @@ services:
     environment:
       - MOODLE_DATABASE_HOST=mariadb
       - MOODLE_DATABASE_USER=root
-      - MOODLE_DATABASE_PASSWORD=moodle
-      - MOODLE_DATABASE_NAME=moodle
+      - MOODLE_DATABASE_PASSWORD=churchlms
+      - MOODLE_DATABASE_NAME=churchlms
       - PUID=998
       - PGID=100
     volumes:

@@ -7,7 +7,7 @@ $CFG = new stdClass();
 $CFG->dbtype    = 'mariadb';
 $CFG->dblibrary = 'native';
 $CFG->dbhost    = 'localhost';
-$CFG->dbname    = 'moodle';
+$CFG->dbname    = 'churchlms';
 $CFG->dbuser    = 'root';
 $CFG->dbpass    = '';
 $CFG->prefix    = 'mdl_';
@@ -18,8 +18,8 @@ $CFG->dboptions = array (
   'dbcollation' => 'utf8mb4_general_ci',
 );
 
-$CFG->wwwroot   = 'http://localhost/moodle';
-$CFG->dataroot  = 'C:\\xampp\\htdocs\\moodledata';
+$CFG->wwwroot   = 'http://localhost/churchlms';
+$CFG->dataroot  = 'C:\\xampp\\htdocs\\churchlms';
 $CFG->admin     = 'admin';
 
 $CFG->directorypermissions = 0777;
