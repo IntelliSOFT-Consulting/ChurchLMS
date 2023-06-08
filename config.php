@@ -1,4 +1,4 @@
-<?php  // Moodle configuration file
+<?php  // ChurchLMS configuration file
 
 unset($CFG);
 global $CFG;
